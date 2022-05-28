@@ -10,7 +10,6 @@ import java.net.URL;
 public class UrlLoader {
 
     public static WebPage loadWebPage(String url) throws UrlLoaderException {
-
         try {
             URL myUrl = new URL(url);
             BufferedReader br = new BufferedReader(new InputStreamReader(myUrl.openStream()));
